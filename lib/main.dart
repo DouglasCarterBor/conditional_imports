@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'printar.dart';
+import 'what_is_the_platform.dart';
 
 void main (){
    runApp(const MyApp());
@@ -24,8 +24,6 @@ class MyApp extends StatelessWidget {
 
 class Home extends StatefulWidget {
   const Home({super.key});
-
-
 
   @override
   State<Home> createState() => _HomeState();
