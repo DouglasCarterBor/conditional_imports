@@ -1,0 +1,48 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "conditional_imports (Android)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main.dart",
+        "args": ["--flavor", "android"]
+      },
+      {
+        "name": "conditional_imports (iOS)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main.dart",
+        "args": ["--flavor", "ios"]
+      },
+      {
+        "name": "conditional_imports (Web)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main.dart",
+        "args": ["--flavor", "web"]
+      },
+      {
+        "name": "conditional_imports (Profile mode)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main.dart",
+        "flutterMode": "profile"
+      },
+      {
+        "name": "conditional_imports (Release mode)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main.dart",
+        "flutterMode": "release"
+      },
+      {
+        "name": "conditional_imports (Windows)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main.dart",
+        "args": ["--flavor", "windows"]
+      }
+    ]
+  }
+  
